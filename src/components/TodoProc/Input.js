@@ -7,7 +7,7 @@ function Input() {
 	return <input
 		placeholder="type something..."
 		value={name} // or you can bind value in the HardCore Style: value={store.sub("name")}
-		onChange={store.nameSet}  // binding a call context
+		onChange={store.nameSet}
 		// also u can use it like: onChange={() => store.nameSet()}
 		// or change the state directly: onChange={e => store.name = e.target.value}
 	/>;
