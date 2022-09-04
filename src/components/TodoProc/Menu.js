@@ -6,7 +6,7 @@ function Menu() {
 	return (
 		<div className="menu">
 			<Input />
-			<div className="todo_add" onClick={store.add.bind(store)}>Add</div>
+			<div className="todo_add" onClick={store.add}>Add</div>
 		</div>
 	);
 }
