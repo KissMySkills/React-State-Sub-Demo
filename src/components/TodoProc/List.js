@@ -3,7 +3,7 @@ import store from "../../globals/store";
 import Todo from './Todo';
 
 function List() {
-	const list = store.subTo('list');
+	const list = store('list');
 
 	return (
 		<div className="list">

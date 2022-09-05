@@ -3,7 +3,7 @@ import store from "../../globals/store";
 import Todo from "./Todo";
 
 function TodoHistory() {
-	const history = store.subTo('history');
+	const history = store('history');
 	return (
 		<div className="todo_history">
 			<div className="todo_history_name">Todo Hisrory</div>
